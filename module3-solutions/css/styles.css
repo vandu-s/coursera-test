@@ -14,7 +14,13 @@ body {
     background-color: gray;
     border-radius: 0;
     border: 0;
-    padding: 10px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: black;
 }
 
 .navbar-brand a {
@@ -35,17 +41,17 @@ body {
 }
 
 #nav-list a:hover {
-    background-color: hotpink;
+    background-color: lightgray;
 }
 
 hr {
     margin: 5px 0 5px 0;
+    border: 1px solid black;
 }
 
 #menu {
     background-color: grey;
-    padding: 0.5rem;
-    margin: 2rem;
+    padding: 20px;
 }
 
 #main-header {
@@ -55,6 +61,27 @@ hr {
 
 #sub-head {
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
-@media (max-width: 767px) {}
+@media (min-width: 768px) {
+    .row {
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        margin: 0 40px 0 40px;
+    }
+    .navbar-collapse {
+        border-top: 2px solid black;
+    }
+    .navbar-header {
+        background-color: gray;
+    }
+    #header-nav .container,
+    #collapsable-nav ul li a {
+        background-color: white;
+    }
+}
