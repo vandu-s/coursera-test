@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#nav-bar {
+    box-shadow: 0 2px 4px gray;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.menu-item {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 16px;
+}
+
+.menu-logo {
+    width: 100px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#resturant-img {
+    width: 100%;
+}
